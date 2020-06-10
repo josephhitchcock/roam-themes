@@ -1,0 +1,250 @@
+/* Core theme from azlen */
+@import url('https://azlen.github.io/roam-themes/core.css');
+
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+/* Variables */
+:root {
+  --page-width: 616px;
+
+  --header-font: 'Nunito', sans-serif;
+  --body-font: 'Nunito', sans-serif;
+
+  --bg-color: rgb(28, 29, 31);
+  --page-color: rgb(39, 40, 41);
+
+  --text-color: rgb(216, 216, 216);
+  --icon-color: rgb(125, 126, 125);
+  --bullet-color: rgb(66, 158, 246);
+
+  --color-primary: 196, 214, 224;
+  --color-secondary: 95, 195, 247;
+}
+
+/* Page styling --------------------------------------- */
+
+a {
+  color: rgb(var(--color-primary)) !important;
+}
+
+code {
+  background: var(--bg-color) !important;
+  color: var(--text-color) !important;
+  border: none;
+  border-radius: 0;
+  padding: 4px 8px;
+  margin-right: 0 !important;
+}
+
+.roam-article > div {
+  border-radius: 0;
+}
+
+#roam-right-sidebar-content > * > div {
+  border-radius: 0 !important;
+}
+
+.rm-page-ref-tag {
+  background: rgb(111, 113, 116);
+}
+
+.rm-pages-row:nth-child(2n + 1) {
+  border-radius: 0;
+  background: inherit;
+}
+
+.rm-pages-row-header {
+  background-color: var(--bg-color) !important;
+}
+
+span.sort-button.focused::before {
+  color: var(--bullet-color) !important;
+}
+
+.block-border-left {
+  border-left: none !important;
+}
+
+#buffer {
+  background-color: var(--icon-color) !important;
+}
+
+#buffer > div {
+  border-radius: 0 !important;
+}
+
+#find-or-create-input {
+  border-radius: 0 !important;
+}
+
+.empty-pill {
+  display: none;
+}
+
+.bp3-control input:checked ~ .bp3-control-indicator {
+  background-color: var(--bullet-color) !important;
+}
+
+.bp3-dialog {
+  border-radius: 0 !important;
+}
+
+.bp3-button {
+  border-radius: 0 !important;
+}
+
+.confirmation-content {
+  background: var(--page-color) !important;
+  border-radius: 0 !important;
+  color: var(--text-color) !important;
+}
+
+.delete-all-dialog-items:not(.last-item) {
+  border-bottom-color: var(--bg-color) !important;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+}
+
+body > .bp3-portal .bp3-text-small {
+  color: var(--text-color) !important;
+}
+
+.check-container input[checked] + .checkmark {
+  background: var(--bullet-color) !important;
+}
+
+.bp3-datepicker {
+  background: var(--bg-color) !important;
+}
+
+.bp3-icon-calendar {
+  background: var(--bg-color) !important;
+}
+
+.DayPicker-Day:hover {
+  background: var(--icon-color) !important;
+}
+
+.kanban-column {
+  background: none !important;
+  box-shadow: 0 0 12px var(--bg-color);
+  margin: 6px;
+  border-radius: 0 !important;
+}
+
+.kanban-title {
+  background: none !important;
+  border-bottom: 1px solid var(--bg-color);
+}
+
+.kanban-card {
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+/* Code block styling ---------------------------------- */
+
+.CodeMirror {
+  background: var(--bg-color) !important;
+  color: rgb(171, 178, 191) !important;
+}
+
+.Codemirror-code {
+  padding-left: 12px !important;
+}
+
+div.CodeMirror-selected {
+  background: rgb(55, 63, 79) !important;
+}
+
+.CodeMirror-gutters {
+  background: var(--bg-color);
+  padding-right: 12px;
+  border-right: 1px solid #252525;
+}
+
+.CodeMirror-cursor {
+  border-left: 2px solid rgb(59, 126, 255) !important;
+}
+
+.CodeMirror-matchingbracket {
+  color: white !important;
+  outline: 1px solid grey !important;
+  padding-bottom: 2px;
+}
+
+.CodeMirror-activeline-background {
+  background: rgb(32, 33, 35) !important;
+}
+
+.CodeMirror-linenumber {
+  color: rgb(63, 71, 88) !important;
+  font-family: monospace !important;
+  left: 0px !important;
+}
+
+.block-bullet-view .bp3-button:not([class*='bp3-icon']) {
+  border-radius: 0 !important;
+  border: 2px solid #252525 !important;
+}
+
+span.cm-comment {
+  color: rgb(127, 132, 142) !important;
+}
+
+span.cm-def {
+  color: rgb(209, 154, 102) !important;
+}
+
+span.cm-keyword {
+  color: rgb(198, 120, 221) !important;
+}
+
+span.cm-variable.cm-callee {
+  color: rgb(86, 182, 194) !important;
+}
+
+span.cm-operator {
+  color: rgb(86, 182, 194) !important;
+}
+
+span.cm-builtin {
+  color: rgb(86, 182, 194) !important;
+}
+
+span.cm-string {
+  color: rgb(152, 195, 121) !important;
+}
+
+span.cm-variable-3 {
+  color: rgb(86, 182, 194) !important;
+}
+
+span.cm-variable-2 {
+  color: rgb(224, 108, 117) !important;
+}
+
+span.cm-variable {
+  color: rgb(229, 192, 123) !important;
+}
+
+span.cm-tag {
+  color: rgb(224, 108, 117) !important;
+}
+
+span.cm-property {
+  color: rgb(97, 175, 239) !important;
+}
+
+span.cm-number {
+  color: rgb(209, 154, 102) !important;
+}
+
+span.cm-atom {
+  color: rgb(209, 154, 102) !important;
+}
+
+span.cm-qualifier {
+  color: rgb(209, 154, 102) !important;
+}
