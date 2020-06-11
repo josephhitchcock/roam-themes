@@ -18,6 +18,7 @@
   --text-color: rgb(216, 216, 216);
   --icon-color: rgb(125, 126, 125);
   --bullet-color: rgb(66, 158, 246);
+  --highlight-color: rgb(255, 204, 0);
 
   --color-primary: 196, 214, 224;
   --color-secondary: 95, 195, 247;
@@ -27,6 +28,11 @@
 
 a {
   color: rgb(var(--color-primary)) !important;
+}
+
+.roam-highlight {
+  background-color: var(--highlight-color);
+  color: var(--bg-color);
 }
 
 code {
