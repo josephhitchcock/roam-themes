@@ -6,7 +6,7 @@ It builds off of a core theme created by [azlen](https://github.com/azlen/roam-t
 
 ## Usage
 1. Create a note named **`roam/css`**.
-2. Paste in the contents of [`grizzly.css`](https://raw.githubusercontent.com/josephhitchcock/roam-themes/master/grizzly.css)
+2. Paste the contents of [`grizzly.css`](https://raw.githubusercontent.com/josephhitchcock/roam-themes/master/grizzly.css) into a Code Block.
 
 ## Screenshots
 ![Sample](images/sample.png)
