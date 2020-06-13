@@ -19,12 +19,21 @@
   --icon-color: rgb(125, 126, 125);
   --bullet-color: rgb(66, 158, 246);
   --highlight-color: rgb(255, 204, 0);
+  --heading-color: rgb(196, 214, 224);
 
-  --color-primary: 196, 214, 224;
+  --color-primary: 129, 200, 246;
   --color-secondary: 95, 195, 247;
 }
 
 /* Page styling --------------------------------------- */
+
+h1, h2, h3, h4, h5, h6, h1 > a, h2 > a, h3 > a, h4 > a, .rm-title-textarea {
+  color: var(--heading-color) !important;
+}
+
+h1 > div, h2 > div, h3 > div {
+  color: var(--heading-color) !important;
+}
 
 a {
   color: rgb(var(--color-primary)) !important;
